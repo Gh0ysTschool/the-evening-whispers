@@ -1,0 +1,52 @@
+<style>
+    @font-face {
+        font-family: Canterbury;
+        src: url(./Canterbury.ttf);
+    }
+    body {
+        background: #c7baa9;
+        color: #5a5959;
+    }
+    h1 {
+        font-family : Canterbury;
+        font-size: 7.7vw;
+        position: relative;
+        margin-left: 2.2em;
+        margin-bottom: 0.2em;
+        font-weight: 100;
+    }
+    h1::before {
+        left:-2.2em;
+    }
+    h1::before {
+        right:-2em;
+    }
+    h1::before, h1::after {
+        content:'';
+        width: 1.8em;
+        margin: 0.2em;
+        margin-bottom:-0.15em;
+        height: 0.8em;
+        border: solid 0.025em;
+        display: inline-block;
+        position: absolute;
+    }
+    .split {
+        font-family : sans-serif;
+        border-top : solid 0.1em;
+        border-bottom : solid 0.1em;
+        text-align: center;
+        position: relative;
+        font-size: 2vw;
+        margin: 0 1.8em 0 0.7em;
+    }
+    .split::after {
+        position:absolute;
+        left:1.5em;
+        content: 'Free of Charge'
+    }
+</style>
+<h1>The Evening Whisper</h1>
+<div class="split">
+    <span>Friday, January 22nd, 2021</span>
+</div>
